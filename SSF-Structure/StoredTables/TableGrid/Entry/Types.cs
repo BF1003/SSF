@@ -5,6 +5,7 @@ public enum Types
     number = 1,
     floating = 2,
     datetime = 3,
+    undefined = 4,
 }
 
 public static class TypesDict
@@ -21,6 +22,7 @@ public static class TypesDict
                 _TypesDictionary.Add(typeof(float), Types.floating);
                 _TypesDictionary.Add(typeof(double), Types.floating);
                 _TypesDictionary.Add(typeof(DateTime), Types.datetime);
+                _TypesDictionary.Add(typeof(object), Types.undefined);
             }
             return _TypesDictionary; 
         }

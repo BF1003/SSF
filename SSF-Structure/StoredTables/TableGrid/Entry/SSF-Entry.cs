@@ -8,13 +8,13 @@ namespace TypeSSF.SSF_Structure
         internal SSF_Row UpperInstance { get; set; }
 
         private string _ColumnName { get; set; } = string.Empty;
-        public string ColumnName 
+        public string ColumnName
         {
             get
             { return _ColumnName; }
             set
             {
-                _ColumnName = value;                
+                _ColumnName = value;
             }
         }
 
@@ -33,30 +33,34 @@ namespace TypeSSF.SSF_Structure
                     if (ValType == Types.text)
                     {
                         if (value.GetType() != typeof(string))
-                            value = ToSSFTypes.ToText(value);
+                            _Value = ToSSFTypes.ToText(value);
                         else
-                            value = value;
+                            _Value = value;
                     }
                     if (ValType == Types.number)
                     {
                         if (value.GetType() != typeof(int))
-                            value = ToSSFTypes.ToNumber(value);
+                            _Value = ToSSFTypes.ToNumber(value);
                         else
-                            value = value;
+                            _Value = value;
                     }
                     if (ValType == Types.floating)
                     {
                         if (value.GetType() != typeof(float) || _Value.GetType() != typeof(double))
-                            value = ToSSFTypes.ToFloating(value);
+                            _Value = ToSSFTypes.ToFloating(value);
                         else
-                            value = value;
+                            _Value = value;
                     }
                     if (ValType == Types.number)
                     {
                         if (value.GetType() != typeof(DateTime))
-                            value = ToSSFTypes.ToDateTime(value);
+                            _Value = ToSSFTypes.ToDateTime(value);
                         else
                             _Value = value;
+                    }
+                    if (ValType == Types.undefined)
+                    {
+                        _Value = value;
                     }
                 }
                 catch

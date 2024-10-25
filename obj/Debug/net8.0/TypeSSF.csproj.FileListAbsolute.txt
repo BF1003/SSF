@@ -9,3 +9,4 @@ C:\Users\Fakes\source\repos\SSF\obj\Debug\net8.0\TypeSSF.dll
 C:\Users\Fakes\source\repos\SSF\obj\Debug\net8.0\refint\TypeSSF.dll
 C:\Users\Fakes\source\repos\SSF\obj\Debug\net8.0\TypeSSF.pdb
 C:\Users\Fakes\source\repos\SSF\obj\Debug\net8.0\ref\TypeSSF.dll
+C:\Users\Fakes\source\repos\SSF\obj\Debug\net8.0\TypeSSF.sourcelink.json

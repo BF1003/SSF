@@ -1,0 +1,11 @@
+C:\Users\Fakes\source\repos\SSF\bin\Debug\net8.0\TypeSSF.deps.json
+C:\Users\Fakes\source\repos\SSF\bin\Debug\net8.0\TypeSSF.dll
+C:\Users\Fakes\source\repos\SSF\bin\Debug\net8.0\TypeSSF.pdb
+C:\Users\Fakes\source\repos\SSF\obj\Debug\net8.0\TypeSSF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fakes\source\repos\SSF\obj\Debug\net8.0\TypeSSF.AssemblyInfoInputs.cache
+C:\Users\Fakes\source\repos\SSF\obj\Debug\net8.0\TypeSSF.AssemblyInfo.cs
+C:\Users\Fakes\source\repos\SSF\obj\Debug\net8.0\TypeSSF.csproj.CoreCompileInputs.cache
+C:\Users\Fakes\source\repos\SSF\obj\Debug\net8.0\TypeSSF.dll
+C:\Users\Fakes\source\repos\SSF\obj\Debug\net8.0\refint\TypeSSF.dll
+C:\Users\Fakes\source\repos\SSF\obj\Debug\net8.0\TypeSSF.pdb
+C:\Users\Fakes\source\repos\SSF\obj\Debug\net8.0\ref\TypeSSF.dll
